@@ -14,13 +14,16 @@ public class Practice {
 
 		System.out.println("Input your name :");
 		Scanner sc = new Scanner(System.in);
-           String val = sc.next();
-           sc.close();
-
-        int sum = 0;   
+		String val = sc.next();
+		sc.close();
+		int a = 2;
+		int b = 3;
+		int total = a + b;
+		System.out.println(total);
+		int sum = 0;
 		for (char e : val.toCharArray()) {
-		     System.out.print(Character.toLowerCase(e));
-			sum+= (int) Character.toLowerCase(e) - 96;
+			System.out.print(Character.toLowerCase(e));
+			sum += (int) Character.toLowerCase(e) - 96;
 		}
 		System.out.println("\nOutput: " + sum);
 //		for (int i=0 ; sc.hasNext() ; i ++)
