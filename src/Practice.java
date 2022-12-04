@@ -17,8 +17,9 @@ public class Practice {
 		String val = sc.next();
 		sc.close();
 		int a = 2;
-		int b = 5 ;
+		int b = 1800 ;
 		int total = a + b;
+		int d;
 		System.out.println(total);
 		int sum = 0;
 		for (char e : val.toCharArray()) {
