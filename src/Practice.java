@@ -12,13 +12,14 @@ public class Practice {
 
 	public static void main(String[] args) {
 
-		System.out.println("Input your name :");
+		System.out.println("Input your name:");
 		Scanner sc = new Scanner(System.in);
 		String val = sc.next();
 		sc.close();
 		int a = 2;
 		int b = 5 ;
 		int total = a + b;
+		int c;
 		System.out.println(total);
 		int sum = 0;
 		for (char e : val.toCharArray()) {
