@@ -1,2 +1,8 @@
-/settings/*
-/bin/*
+# ignore ALL .classpath files
+*.classpath
+
+# ignore ALL files in ANY directory named target
+target/
+
+# ignore ALL files in ANY directory named .settings
+.settings/
